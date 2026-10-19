@@ -1,0 +1,2 @@
+# scriptdz
+link key
