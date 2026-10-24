@@ -1,3 +1,295 @@
---// This file was created by XHider v1.2 [https://discord.gg/ynvq7ED4Sp]
+--[[ 
+    PREMIUM CYBERPUNK KEY SYSTEM 2026 - AUTO SYNC & AUTO SAVE EDITION
+    Cấu hình Script: Chỉ sử dụng Key từ Server GitHub (Speed Hub X)
+]]
 
-([[This file was protected with Xhider Obfuscator]]):gsub(".+",function(J)_il6sOU=J end)return(function()local V,r do local J=math.floor local U=string.char local w=string.byte local function T(U,w)local T=0x0 for E=0x0,0x7,0x1 do local N=U/0x2+w/0x2 if N~=J(N)then T=T+0x2^E end U=J(U/0x2)w=J(w/0x2)end return T end local E={0x3E,0x64;0x1,0x2F}local function N(U,T)local E={}local N=0x1 local b=#U while N<=b do local T=0x0 local s=0x5 if N+0x4>b then s=(b-N)+0x1 for J=0x1,s,0x1 do T=T*0x55+(w(U,(N+J)-0x1)-0x21)end for J=s+0x1,0x5,0x1 do T=T*0x55+0x54 end else for J=0x0,0x4,0x1 do T=T*0x55+(w(U,N+J)-0x21)end end local L=J(T/0x1000000)%0x100 local G=J(T/0x10000)%0x100 local M=J(T/0x100)%0x100 local h=T%0x100 E[#E+0x1]=L E[#E+0x1]=G E[#E+0x1]=M E[#E+0x1]=h N=N+(s==0x5 and 0x5 or s)end for J=0x1,T,0x1 do E[#E]=nil end return E end local b=([=[XHD:&7bepC(+c\*Wg"B>=<X09giu,;%R838c`K68I]f4*^".+=oi[TE<^&Z9a>'1;&23'!A@[uF\4`+!A@=NA62McA-">V$?8gH%m+;&03AKt5YOCQ!A@>7A-">EA-">h$t*An;?8F'A-";HA==f.D$r#`D#pUpA7[)O-jVJ`C]PM9AEbO,jod?t@KAMKAD\augB]GAD?5;PA-">IA5Y'EA6CQLA8s7dA9]akA;Dm&A=5)7A>h.FAA9c]ADAh%AEGO/AF2$6AG.Z?A-4GJA.1(SA/6d]A0W]jA1B2qA25c$A2u8+A4/%6A5OsCA6^`NA7R;VA9':dA:6'oA<ec2A=bD;A?%7GAA9`\AB$5cAC<(oADAe$AEkd2AGRoBA-OVLA.^CWA0``jA2,Z"A3DM.A3__1A4J48A7-uQA8<b\A9KOgA:Q6qA;;a#A<&6*A<e`1A=+r4A>_"CA@='RAAKi]AAg&`ACW7qAE#1)AEb[0AFhB:A.L4TA03?dA0NQgA19&nA3VV/A4A+6A5b$CA6pfNA8Ee\A90:cA;;^"A<8?+A=>&5A>(P<A?IIIAAB`[AD/RuADo('AE5:*AF_98AGn&CA.L1SA/6[ZA1&lkA2Gf#A4%k2A4A(5A5XpAA7d>UA;Mg#A;i$&A<SN-A=>#4A>Le?A?7:FA@!dMAAfu^ABQJeAC;tlAE>=*AF(g1AGn#BA.0qOA.pFVA/6XYA0!-`A0`WgA1K,nA1f>qA3qb0A5+O;A6LHHA7d;TA9fXgA:Q-nA;;WuA;Vj#A<A?*A<\Q-A?%+CA@sBUAA]l\A-FDGA.0nNA/?[YA1K)mA1f;pA2Pf"A4%e0A5Od>A6:9EA8!DUA901`A;;TtA;hs$A=4l1A=tA8A?..CA@F!OAB62`A-+/CA/-LVA0iWfA5am?A:l9oA;2KrA;r!$A<83'A=Fu2A=b25A>Ub=A?dOHA@O$OAB?5`AC`.mAEYF*AGR]<A-=8DA/?UWA0WHcA2GYtA3;5'A3qY-A5"@7A6C9DA7$]JA7d2QA:Q$kA</*%A==l0A>U_<A@<jLAAfiZAD&=oAEG7'A3;2&A?$q>"]9abEY1bI(B?*PktO(-4Wjp#(BZ<S3rgot,uiYVE\)"V(BQ6RkmO"@4i""Q(BZ<S3s.-"-%jVBEnYi+(BlHU>Qo=*TIoda(BcBTl'&6f4m>"k,QKJ0(C)TW^n8B7,QKJV,t[E&,QKKX1d$)oQU^5rl-D_b4gW4!(BZ<S3s%'!-+%UnEgm*T(BlHU>c@u#TQIn0(BuNVl(d^I4]jUN,QKJO(C)TW^s8',,QKJW--l5a,QKL/1hVhqQQh4\l)G-'4X%.N(BZ<S3s@9$-/\]cElDO&(BlHU>_85sT],Nl(C;`Yl/t:^4d,"b,QKK/(C)TW^_*DI,QKK%,rTp$,QKK"1k.>kQ_sX3kojOb4W)3h(BZ<S3s73#-"i$qEf5tH(C2ZXks"=&4TpE^(BZ<S3sRE&,m*,SEdMS`_l04]koak"4WI-$(BZ<S3sI?%-.Sg4EllI#(CMl[>jKd&E[kc4Sc^W0l,K*14`-"]1f,C7QSaDSl)s]=4e@a](BZ<S3sdQ((CDfZ3s[K'--SI8X9gOD!hEQi"ssUf<,jQT-+YS9X9^IC"u#[-<6m3].U6oCEq7^YIc?:=ktR,B4_ieg(BZ<S3rgot-&4KQEma9n(C`#]>lGsB(CVr\XV&@>EeY?hX9^ID(Cr/_l.X^14lbXF1nO("QfZDJl0CB*4nd@]?%s!Xhjc>`(BZ<S^m''5/-%=e-$?W!El&8[(Ci)^>^`?-(D/;aXg^HiEWO+.X8jn<X8jn;kp%d%4aX8/1kDL/He?asMgS\^=en,Rhha!MHZT6@X8jn;(BZ<SXfJo-#398k<4";B.Wn(J(C`#]>j2h>(D&5`XX+6`E]M60X8jn<(BZ<SXUm_;(DAGc(D8Abl$Q-\4_,;m1t:S>d"5b8/-dgj=\?@*hm>%#X8jn;(CDfZXTu9#"tO-$<6['[.Y6M6(C`#]>^#[k(D&5`Xg_dVEdt_BX8jn<(CDfZXnGA?(DAGc(D8Abktpf_4iEYr1uorWct59^/-[ai=V55*hp!f<=]FXchp3r>ScUQ//.4*pX9L=A!lh,8"scE(<9Pu!-'RaO(DSSe>UM08!n]G:#2T3O<9Pu!-0rBg(DJMd>]Mkd!c@(@#%`^H<9Pu!-%7@B(DJMd>a"a"Ee3J*X91+>l#DMm4i5G]1au6Rd#ElJ#$HaI<!Y*?.Kqo<E_ZkD(DSSe>ZK]IE\^!tX91+?l.Lu)4kN871`CC^Q[<d]klBln4dlJW(BZ<S3rgot,oH'VX8jn;X9L=B/]Q84"q[dC<!Fs=.X=7TX:$[DEpn?qko%$H4e)"21jQk`HZW$\6H<Hq=g69jhZthuEX;dU(De_g>XSQO(D\YfXWe"%Ea]Nl(E"kil!J:%4j,!X1ii#8Q^<BWl,$;:4XSVD(BZ<S3smW)-&[miX9pUE(Dneh(E5"k#rX'oX9pUE(E+qj(BlHU>Z'?;TEOM@(EG.mkqJTT4g4dJ,QKK^(C)TW^rqGj,QKK",suNm,QKJ*1nKAScqkn,#sgHWX9pUE(E>(l(EY:o>Q?Um(E>(lXX]h<(EP4nXU*8/$,/L2E[kT?(De_g>jhq,(D\YfXl@a@Ea9ZL(EkFql%[%-4VV/q1_jM0QRB!Pkqia*4luIQ(BZ<S3t3i,,prPoX:6gH(Dneh(Eb@p$!qs2X:6gH(E+qjX9pUE$0nA:X:6gH(F(Rs(EtLr>fug!(D\YfXh]XsEj"DV(F:^u(F:^ul+hF#4iN#t1kam0d$a1R#p!"aX:6gH(F1Xt(FLk">b,I!(FCe!XhDY4EkqUH(F_"$(F_"$(FUq#l1'<b4bmUA2!I)8cl9[u#r<;oX:6gH(Fq.&(Fh(%$"HBbX:6gH(G.:((G%4'>]Ac$(D\YfXi37tEqAqO(F:^u(G@F*(F:^u(G@F*km,hh4XYHo1d-S\cqKJ,$.EYKX:6gH(G7@)(G%4'>TgTb(D\YfXgm&:Eem!7(G@F*(GRR,(G@F*(GIL+l1@Ms4j`&e1^aVccq-0!$!XKgEWC\8(De_g>cnC[(D\YfXj77ZEi54h(Gd^.kol*i4^F\51juJ1QbNUAl,@&.4c1b5(BZ<S3t*c+,o/%;X:-aG(G[X-(H!j0>X@So(D\YfXVta&Ef/I9(G@F*(Gmd/l(@Zn4a3-j1kH_)cl/g/$$]i6X:-aG(E+qjX:6gH#n\mKErT-G(De_g>\":V(D\YfXg;icEid7=(H4!2l$%Gu4YL4i1dsX!Qa1c(kq3B@4ZHV=(BZ<S3tEu.-#'JkX:HsJ(Dneh(H*p1$(3q"X:HsJ(E+qjX:6gH$!eHTX:HsJ(F(Rs(EtLr>YN*D(D\YfXk+X.EmI4f(F:^u(F:^ul)U._4kHZL2"-j&d-CF-$*l@nX:HsJ(G.:((G%4'>Wc:o(D\YfXb^U[Eq#sO(F:^u(G@F*(F:^u(G@F*kq<Q/4jD\#1aX(bd%L8X$%D-BX:HsJ(G7@)(G%4'>cPal(D\YfXkTGWEcO6T(BZ<S(HF-4(BZ<S(HF-4kqJKk4\7'"2"V8Ud$;9=#su)SX:HsJ(Fq.&(BZ<S$%qMoX:HsJ(H='3(HX96$1EO,X:HsJ(HO35(FLk">R3Dq(FCe!X^ohEEXC;%(HjE8(G@F*(Ha?7l.5cq4V;5o1rPn2cood@$(R(cX:HsJ(I'Q:(HsK9$*r2<X:HsJ(I9]<X:6gH(I9]<X\r'^(BZ<SHE@uZ#uk,.Eg4dc(De_g>iDa$(D\YfXg\f^Ep?;?(I0W;l+@KW4V't<1rbuQQ_CSWl%(W^4VtC!(BZ<S3t<o--/8OmX:?mI(E+qjX:6gH$.8hQX:?mI(IKi>(IBc=#npfpX:?mI(I]u@(EY:o>U\$s(I]u@XYj"a(ITo?XkZ]V#uG/dX:?mI(Ip,B(FLk">lH5c(FCe!XiB4)E[Si&(Ig&A(Ig&A(Ig&Al"tF]4b(]\1s/dmd*J/8$!aJ)Ell4c(De_g>h2H/(D\YfXgLg4Ef[7O(J-8Dl0Q)%4U*]Q1iQ4%Qb/IFl!+[K4i*5B(BZ<S3tX,0-)fk/X:[*L(Ip,B(J$2C>iP?Y(D\YfXV"W)EWc3BIV[I:(J?DF>b^ts(D\YfX_4lQEXj-L(G@F*(FLk">RX`P(FCe!X[<&"EjlCl(Ig&A(G@F*(J6>El+R+N4]PlB1qjrMQYm8/ksGEl4\rrQ1eV+1csln8dJtpP(J?DF>`J?-(D\YfXTJIlEWBR-(F:^u(FLk">_bH8(FCe!X_UgcEa+Q=(J6>E(G@F*(JQPHl1L%+4g@[^1b?q:QXB32l!g2p4g/<_1^poFcprcXdK;/KEgahO(J?DF>_,8Y(D\YfX][VHEfG>u(BZ<S(FLk">RMaP(FCe!XZDO2E^]S?(Ig&A(G@F*(J6>Eklh.C4V`gt2!IfsQf.t+l.0734[[[K1g,P0Qc!t<ks<rH4cA&hp&Zmjko!q-4UDUO1bTZ2d!i/h$.6V"X:[*L(E+qjX:?mI$)fh'Em0HI(De_g>iIV#(D\YfXd/#MEjF-_(JHJGl/1MR4UM>d1lDDUQWD++l'L?R4lD&4(BZ<S3tO&/-%kH<X:R$K(E+qjX:6gH$!^1=X:R$K(Jc\J(JZVI$)'JRX:R$K(JuhL(EY:o>cfI`(JuhLXat!9(JlbKXc]_I$'BpaX:R$K(K2tN(FLk">f)j"(FCe!Xo*GJEiT_7(Ig&A(Ig&A(Ig&Al/muP4i(oT1^GrMcqYYn$.gp&X:R$K(K)nM(KE+P#u_jnX:R$K(G7@)(G%4'>Z2@E(D\YfX^-BEEicJf(BZ<S(G@F*(G@F*(HF-4ksW`Z4Z4kh1sd.5cn>7$#t-fmX:R$K(Fq.&(BZ<S$%-E7Efr,l(De_g>RX^U(D\YfXl6#sE[bm[(K<%Okl;PW4k&a;1s7WjQUFVZl'k024U3h3(BZ<S3tj82--m2VX:m6N(E+qjX:6gH$0O:eX:m6N(KW7R(KN1Q$#<eCX:m6N(Jc\J(D8Ab#s&X^X:m6N(F1Xt(FLk">[^Zr(FCe!Xe/O=Em*@M(KiCT(KiCT(K`=Sl#MJf4^W'l1a;[eck9qE#nHY>X:m6N(Fq.&(L&OV$3$`JX:m6N(G.:((G%4'>gSkm(D\YfXm)")E^C`O(Fh(%(G@F*(KrIU(G@F*km@s04^5sJ2!<Jqcql`W$(%o?X:m6N(G7@)(G%4'>gG/h(D\YfXat_&EpD1=(L8[X(G@F*(G@F*(L/UWl'ohL4jX>t1gDC,d*rDo$2&>RX:m6N(K2tN(FLk">gQ@$(FCe!X^6U6EZ]0f(Ig&A(Ig&A(Ig&Al()8e4^h8?1cH?Ed#u/S#o?/^X:m6N(JuhL(EY:o>UAbf(JuhLXTTPU(LJgZXm-T!$-<k,X:m6N(K)nM(LAaY$!ZgrE[BHh(De_g>RfpT(D\YfXbqUZEg9AG(Gd^.kp%Ip4jHfo1n5Y4QQ;3iknNqU4`Cps(BZ<S3ta21-':8#X:d0M(G[X-(H!j0>cClX(D\YfXh.kAEgGqS(G@F*(FUq#l!"EE4oNR=1lBTMcr>WU#smjCX:d0M(E+qjX:m6N$.m?BEZV%[(De_g>]J\g(D\YfXg7CkEk&H=(I0W;l&rNY4]j681udHQQf(4Ll(@^"4mT?g(BZ<S3u'D4-2&W3X;*BP(E+qjX:m6N$*!*-X;*BP(IKi>(L\s\$'\fOX;*BP(Ip,B(FLk">TNsg(FCe!XVajYEndBa(Ig&A(G@F*(J6>El)[E>4i#1'1k$W>d"O+N$/_l&X;*BP(LSm[(Lo*^$0Df^Ei/pW(De_g>\;lb(D\YfX\\d\EiZT,(Lf$]l2<gL4bH>&1t`:DQS;k_krTnN4m6S^(BZ<S3ts>3-/@MnX;!<O(E+qjX:6gH#t+HkX;!<O(Jc\J(M,6`$/`lOX;!<O(JuhL(EY:o>]JQt(JuhLXZo^r(JlbKXeoK.#pFbWX;!<O(K)nM(FUq#$$i2VX;!<O(F1Xt(FLk">SN-:(FCe!Xlbo`Ed2=9(K`=S(LAaY(M#0_l#99a4f8NY1e@*fcsadS$.n[#X;!<O(K2tN(FLk">YmR)(FCe!Xga-kEbX)%(Ig&A(M>Bb(M5<akrZNP4`db$1r]_^cp-DW$#0a<X;!<O(G.:((G%4'>ZTu.(D\YfXfO5cEbSkn(Fh(%(G@F*(MPNd(JQPHkro\L4VQk(1hpcpd"qr^$%<aNX;!<O(G7@)(G%4'>cf_M(D\YfXg(iREp[>$(L8[X(G@F*(G@F*(MGHcl$@`%4nK__1tUKWcmDl5$(QM/Ehn/f(De_g>cYTA(D\YfXb;1tE_E"e(Gd^.knFS14k+jf1mXV#Q]Z[%l+fkJ4bJDo(BZ<S3u9P6,sW1IX;<NR(G[X-(H!j0>cSJa(D\YfXU9GREjNO1(G@F*(MbZfl%g8k4k?#!1h''Dd)k*/$)QQ3X;<NR(E+qjX;!<O#q$-+EfG-p(De_g>SJ:0(D\YfXfIdcE`R<r(Lf$]l*/bg4\M331uG:tQbF'Zl%WP84k2M#(BZ<S3u0J5,t8d$X;3HQ(E+qjX:6gH$$'4EX;3HQ(Jc\J(MYTe$%,BtX;3HQ(JuhL(EY:o>]#Cg(JuhLXgT9C(JlbKXV8iQ$/#&!X;3HQ(K)nM(LAaY#sRfOX;3HQ(F1Xt(FLk">T(.^(FCe!Xa_G=Ed2p@(Ig&A(G@F*(J6>EknYh(4l)961aJ)IciJt9$'&g-X;3HQ(K2tN(FLk">bLc&(FCe!XU]G3Ep^o>(Ig&A(Ig&A(Ig&AksEg74a?=l1uAmXd+]$6$2JOPX;3HQ(G.:((G%4'>j9Kp(D\YfXjjdtEn@MP(Fh(%(G@F*(Mtfh(MbZfl$-a44h>"*2#,Qnd+8A?$!pF[X;3HQ(G7@)(G%4'>Rc$0(D\YfXfH:<EZ%FI(L8[X(G@F*(G@F*(J6>El'qC#4^KrD1r;QGcrJ=T$*EG.EY5u-(De_g>g"AV(D\YfX_#K^EZ'7\(Gd^.l14k-4[Ma@1]ia8Qa`:-knEd74fl5g(BZ<S3uK\8,uN]+X;NZT(G[X-(H!j0>\MQ?(D\YfXY9$cEWn63(G@F*(LAaYl%T<A4gX#p1t"hcd.W`K#sttHX;NZT(E+qjX;3HQ$1;;jScpc2/0$<,X:6gH(Mk`gXYe3+T\sBkScg]1l-8%J4a$jH,QKJ6(N1rj^th+\,QKK<,mn%D,QKKR2!9i2Hi,70X:6gH(N(liXjDA;T[^*DSd-o4l"m-#4ep]Z,QKKn(N1rj_!"5V,QKL?-%-CG,QKK*1p^K[Hi"+_X9:1?(N(liXY:qkT\Ql(Sd$i3l,i6?4htWk,QKKJ(N1rj^`8W+,QKK",s@_?,QKJ)1iXI`HTsWLSd@&6/0?N/X<0)ZElVg-X;!<O(FLk">ROt/(FCe!Xj2G4Eq(g,(J6>E(KE+P(K`=Sl*:rh4[Nca1h.I[d#@"a(G%4'>UNVH(D\YfXbs%/EXe?j(ND)l(G@F*(G@F*(N;#kkn]Q`4f_CM1rC\Td+Cj5(FLk">\?or(FCe!XZ(\kEe^;S(K`=S(LAaY(M#0_l&]a64c?e=2#]+ocl]?H(G%4'>S)fQ(D\YfX`"D-E[2XA(L8[X(G@F*(G@F*(MGHckrJb^4[5qM1r<!OQS=!Qkos-<4ZM681_Z/sHcuPKX<0)ZEi@fiX;3HQ(FLk">b2Ra(FCe!XVbp5Ehq/<(NV5n(G@F*(NM/ml"_Hf4[jk[1mt&;d/8R#(G%4'>T4f9(D\YfX`l\[EhL(!(ND)l(G@F*(G@F*(NhApkuFOI4f2UZ1gX\Xd$34i(FLk">b3CJ(FCe!XjnlqE[ipK(Ig&A(G@F*(J6>El)j#h4^M`)1`h6Bci`4&(G%4'>af2i(D\YfXh&;,ElsS:(L8[X(G@F*(G@F*(J6>El&Z7<4j)PD1o*<?QP\lbl)4<64^c0U1ndfSHb#tOSd6u5/06H.X;!<O(N_;oXdf*.T[&aFSdR28ktj6n4X;Za,QKKp(N1rj_"D>s,QKKY-)tHl,QKJs2!++YHPfs8X;3HQ(N_;oXc-V>TE&D%SdI,7l%lC$4UVRr,QKJD(N1rj^a9@?,QKJ[,tP+t,QKL?1pW$ZH^=pI68O\:R6&$6X9L=B#3DK9!fn*^</N.h,p#``X9L=B(D8Ab/NQ>H#+kLg<7<<\.U/*uX;3HO(Jc\J(O%Mr#sWU*X;3HO(F1Xt(FLk">]Roo(FCe!XkXejEkK$!(NqGq(G@F*(KE+Pl%@G"4b',!1o/X#coH"%#o8OtX<'#WEd$.g(O7Yt(FLk">QPIl(FCe!Xj:LrElG9o(Ig&A(G@F*(J6>EkqU6S4hj&'1p<<MQ^Fi5l%/(;4d`?X1k"QYHW4K-(O.Ss>fYe;(OIf!Xi;B&E^n0s(CDfZl/m_14^FIm1m.65HcdN\X;3HO(Jc\J(MYTe$$W6)X;3HO(F1Xt(FLk">XqHR(FCe!Xi:9mEXm`F(Ig&A(G@F*(J6>El%'Sp4a+pV1_/#0d'NGL$1rN@69A!BErA7=X:m6O(Jc\JXU#3rl-d$S4aam<(BZ<S3rgot-&T>.X8jn;X9L=B/MH6-#5,pt<0ess.PgBbX;3HO(Jc\J(O@_u$$fgFX;3HO(F1Xt(FLk">g98T(FCe!XTiR,El@g?(G@F*(O[r#(ORl"l/V]P4c-MD1^eEDcnVKI#sDp6X;3HO(K2tN(FLk">R$-[(FCe!X`p*qE[TQh(F_"$(F_"$(FUq#kpZ<24kPGS1p6Akd/<]2#n'39(On)%>iFO(#4\K'<"g]E.^:F4(CMl[>S7YSEY`C]Sdd>:l%h"f4`V391qk=<HPlhP=j2j3h\.G&X9C7>T[:P8X:6gF(Oe#$>`i#u(D\YfXerKnEbN<F(P+5'(EY:o>RF5^(P"/&X`F\/(P=A)XgT["(EY:o>f1B'(P4;(X[^^.(POM+Xb0PdkoQF84WZ9>2#(BJclX"kId%Gf(G7@)(G%4'>iRHi(D\YfX\I%9EfG%L(G@F*(G@F*(G@F*(G@F*klnUc4lHMI1k`;Pd/HRP$+#[^(Fq.&(BZ<S$0o65kuNM^4b!?l,QKKN(PFG*^`ls5,QKKU-)=Nb,QKKb1p!/"cq0O^T\1H*l2Hr&4aAA8,QKKH(PaY-^tg_i,QKJo-25N@,QKKT1ikO=HY>^uX9C7>TUN5,X:HsH(Oe#$>ig'Y(D\YfXiBqdEd5^D(PXS,kuNg?4^pT#1_8:3cilp5IT<%2(I'Q:(BZ<S#n;!el#B5b4ZA[U,QKJk(PFG*^lY8`,QKJ_-"8`b,QKL<1lZ=Rd.Tj6TS#o/ku<:;4l^D/,QKK`(PaY-^qk2R,QKJ_-"X6-,QKLA1]g2nHU]pf(O.Ss>i8V[(OIf!XTY;EEh`OK(P+5'l#=tB4o2tc2"<h_HPd>VX9pUCTF%HZl'BL*4nkCj,QKK((Pse/^l8C4,QKLJ-,/[N,QKK`1c??'Hc9S$X:$[DE[$c*l.Nd_4V2li1i`U-H]S4n=`&8ehq]_F.Ncl]X;3HO(Jc\J(Pj_.#s[1@X;3HO(F1Xt(FLk">g,LY(FCe!XUuQ$EY]ep(NqGq(G@F*(KE+Pl*&.(4\_o`1lp,)d-XYG#u'XlX<'#WE]d4O(Q0q1(FLk">Y*,g(FCe!XVC$DEkh"^(Ig&A(G@F*(J6>El!\c&4`_C,1e=BAQRQ'=kmPAi4g7?W1j")kHf't[(O.Ss>]NB((OIf!Xjha%EbFXQ(CDfZkm/UY4Z/Hi1teF&HSRflX;3HO(Jc\J(MYTe#uUoKX;3HO(F1Xt(FLk">\LX"(FCe!XTj(kEhOs'(Ig&A(G@F*(J6>El&(hU4`[Xt2#b&Kcs5Ro#nQHb=nZ++6CY\1q?McP(On)%>cp/8Eg2O,X91+:X8jn:klfJX4eYi$1pJBeHXucp6:>mG)Oj'3(Q'k0>i)Ld#!B.6<":<?.X\Bs(Q'k0>QT9qEYlK,X9UC@ku7Wd4VJ#[1dOH,HSRiVX;!<M(Jc\J(QC(3#mh?WX<'#WEd]#;(Q:"2(FLk">XgSF(FCe!X]uSZEY6;&(Ig&A(G@F*(J6>EkrfX24_bl61^PdMQW&f@l(;XH4c..Y1r.s<Hb2W#=d(&bh^'[7.YYH)X<'#WEdB?d(QU45(FLk">jE"g(FCe!XUla?Ehl1t(Ig&A(G@F*(J6>El,fJI4cCp^1pB4nQZX)kl#,bB4euF(1f:h$HSfIO=lI2D(O.Ss>e8A!(OIf!XiR8ZErFbG(CDfZkn:%D4T`AO1nBC,H`'sSX;!<P(Jc\J(M,6`$+u]L6=p\23#i%(+oj9O/-%=e+p0Jg/-@OhEa3M$(De_g>\?cC(D\YfX`P]CEa0bF(E"ki(BlHU>WtA+TEQjG(EG.mkoE:34lhTg,QKJg(C)TW^ur:8,QKKX-$8!:,QKJ'1qZfIQer#bkpG*F4d=UG1jAg5QP&Qbl27Fc4j6;"(BZ<S3s%'!-0hoYEXPOX(De_g>VPLm(D\YfXchD^EWaCY(EkFqX9(%=l$EZS4`nd21meT%QP(;Pl$aS*4UU%b(BZ<S3s@9$-,Ku=Eq#Qm(De_g>l'^O(D\YfX[.)qEn`M:(JHJGX9C7@l/YOj4g8?X1dpDqQVFoCkrpE64`Eql(BZ<S3s73#-0!^^X9C7@(G7@)(G%4'>V?Wi(D\YfXTEa9E`fq:(G@F*(QL.4(G@F*(L/UWl2R%d4W*2D1iE+Pd-qeY$'S,\X9C7@(G.:((G%4'>ZX4-(D\YfXY0JCErJ-6(F:^u(Qg@7(G@F*(Q^:6l1AYN4h$$$1iA2od"l)O#mXVFX9C7@(F1Xt(FLk">^,4I(FCe!XanM+EWp+`(FUq#(FUq#(KiCTl!%+a4WKa(1bBD0d#<!I$+7u,X9C7@(Fq.&(R$L9#o07SEWq1;(De_g>kJR%(D\YfXjD(8E`*_m(Gd^.X9C7@l."Ps4f&R21jI]^Qd!B:l/;6S4]uLB(BZ<S3sRE&,m]BBX9UCB(G[X-(H!j0>YY^Q(D\YfX^@R/E^X64(G@F*(FUq#l!26@4_ZhU1a#"$cjCpI$-=ObEn=7$(De_g>iF)m(D\YfXXCKKEoA7L(I0W;X9C7@ktIdn4ZrJ_1adLtQYD'Bl/@9*4dZiC(BZ<S3sI?%,m+G$X9L=A(Ip,BX91+>$+beQX9L=A(IKi>(CDfZ$)GK]X9:1?(G7@)(G%4'>l=5)(D\YfXUe,kEZL6a(BZ<S(G@F*(BZ<S(G@F*l2-K!4heIG1c:ZTd(Bq"#mo,eX9:1?(Fq.&(BZ<S$,hh,X9:1?(Jc\JX8jn;$"#DBX9:1?(K2tN(FLk">Tsf9(FCe!Xd,b/E]P#h(Ig&A(Ig&A(Ig&Ako%nX4U$uo1sUZ4d+l<(#m:GkX9:1?(JuhL(EY:o>b-TD(JuhLXj8ja(JlbKXjlpL$+nSWX9:1?(K)nM(QpF8$1UHXX9C7ATU@^gX9C7@(Oe#$>k3oO(D\YfXcrK7Eg*'A(P+5'(EY:o>\71Y(P"/&X`'g8(P=A)XTG?>(EY:o>[UCo(P4;(X^Qg1(R6X;XfUqkks4=!4U_8*1qXm-cjbBUIa3m^(G.:((G%4'>^G?1(D\YfXZjR$EgUE!(F:^u(Qg@7(G@F*(J6>El+uZ64nM>b1_E:)d"@+a$1X"6l.$QO4X4`G,QKLk(PFG*^qnKD,QKJS-/YBd,QKL.1e=Q=d'/@aT_]kZl,jD,4Xm!i,QKJA(PaY-^c4G#,QKL2-11Zo,QKLg1tahUHON"N(O.Ss>ed=,(OIf!X\'^QEl<s#(R-R:kl^mD4e1hV1arf+HXb<jX9C7AT\bC:X9C7@(Oe#$>dQS4(D\YfX]7,XE[IHj(P+5'(EY:o>gD&$(P"/&Xlpcd(RHd=XiT.+(EY:o>dk:)(P4;(XZ?3N(POM+XU$HHl),b/4ggF`1a;d#cuUSoI]Un^(G.:((G%4'>_+<[(D\YfXY!;OEhN0=(F:^u(Qg@7(G@F*(Q^:6l-(dG4md1]2#PU-d$Q/$$"]$fl&`S'4ngn",QKJB(PFG*^q?o&,QKKT-(-6Y,QKKI1aM>hd$a'/TFMT>krB7"4a]Ap,QKK%(PaY-^r$#Q,QKLr-,&'_,QKJ`1^OYcHOF!I(O.Ss>c7AW(OIf!XWm`pE^+G2(P+5'l*o[Z4\ECf1^Yo_HV+4bX9(%=TP]f]l#d)c4gAC-,QKLV(Pse/_"8ZS,QKKs-&#$A,QKJi2"C\JHZ$>264a*%UENo>+oj8i/-%=e+p0LF/-@Oh+p'Eh/-7Ig+pBV"/-R[j+p9RD/-IUiX8jn;(R?^<X[!TBTO#-BSd[89l&h+"4c8kL,QKK;(N1rj^n,)(,QKLM-2e;M,QKK"2!_^=HSi^<X8jn;(RZp?XTJFMTTE&DSe!J<kn>8$4`"SN,QKLG(N1rj^fo9E,QKLi,rGj@,QKJ$1qA1#H[a_`69$IXrh*)"X9C7>T["ObX8jn<(Oe#$>i)@N(D\YfXX0MOEp*Y%(L&OV(EY:o>lBqH(P"/&XX2]E(RHd=XkoB7(EY:o>YjJW(P4;(XfI*](R6X;X]G1Bl'K5a4]hK81h&EocqdIDIN<4q(F1XtX9C7A#s-@N(G7@)X9:1@$2UGul)RJa4l>=',QKL%(PFG*^qt?<,QKJ+-%A"',QKJ01hTZ0d(\5]TUR<Yl&5\b4b\b4,QKKk(PaY-^q0Hg,QKKO,m6<G,QKL:1`cgeHY+Zn6<<=pDl+SQX9C7>TKY7OX8jn<(Oe#$>gdEN(D\YfX_6-eEf>DR(L&OV(EY:o>SruR(P"/&Xh*Cm(RHd=Xn6*b(EY:o>bIKG(P4;(XjXKN(R6X;X]"o#l"qRU4j,5+1dX_kd'CKlIVJ'B(F1XtX91+?#uWC+(G7@)X9(%>$"p!Fl0"Q#4WEgk,QKLo(PFG*^eN__,QKLj,t0jV,QKKA2"2>ld$YlWTLK&&l19;:4bS/i,QKL3(PaY-^oASR,QKK7-,fl[,QKKF1cpaUHhhld6E^7Cq.gb3+oj9=/-%=eX8jn;X;`fW/STQC![)]E"qk5#<)t>0,tFb.X;ETT#,m1*<+71<.VIdEX;ilUEeRtGX8jn<l22$b4[a\n1j.h'HT[Uj=jsk3hdRor6JiAH"RAe%+oj9f/-%=eX8jn;(RQj>Xm/jP(EY:o>X"m((RQj>XWduA(Rm'AX]GR\/J/)i!b'<[<.?5Y--;S(X8jn;(RQj>X\Z1Z(EY:o>kCTS(RQj>Xc2/!(Rd!@Xh8uQ/XbEu#'3aC<.lS^.aj:<X8jn<//p6)=XL-dhh3=?6G,YY*OWuF+oj:H/-%=eX8jn;(RQj>Xhk%<(EY:o>\0hS(RQj>XjrYB(S*3CXkNdM/]h;P!^W#+<1tX&-$-kjX8jn;(RQj>Xh_50(EY:o>gC,.(RQj>XlNCY(Rd!@Xd:Hi/Y:HN#.Bp'<50bD.coDq)hmLE//U$&X8jn<(G.:(Xn>"s//g0(X:6gF(G.:(X[VuP/0-B+X8jn<(S!-BX`7Y9TG,-bSdmD;kp$%24\@.=,QKJ((N1rj^p_)/,QKKn-*>:3,QKKh1qjCOHXr5Y=]1dKhnLL%6:)!5kS[XNX8jn9(S<?EXcCbT(EY:o>i#V\(S<?EXk,EX(S39DXd@g_/]:Q+#%_EX<6usU.L78pLNl=*//U$$=k6S_hp<]66D]3\RD6]i+oj9U/-%=eEYPn`X8jn;(G.:(XdkmFX;W`VHGd>,ku+'"4dpIi(BZ<S3s.-"-*MToX:6gI(G.:((G%4'>f'&X(D\YfXc'4tEXO.DX;rrY(SNKGXiQs?(SEEFX[K[mX;rrY(SNKGXk0Wd(S`WIXgAHhX91+>(SNKGXf?0pWRbE`X;rrY(SWQHX`^15(SEEFXZt1oX;rrY(SWQHX_%XI(S`WIXl"bmX91+>(SWQHX[HC"WH.]Gkn3uL4o5jI1^tf&d++@g$$fcG6=G?E+e?u7EWi<0(CMl[>W0U@Ed/plSe3V>l#f414g$FS1f_r^QZGB-ks19G4k^c<(BZ<S3rgot(CDfZ3s.-"-,ga`X8jn;#3i,V"r3')<&5ga.L-&-(SrcK>g)S\EWA9L(Si]J(T/oM>hEl]Ek,/\X91+?l#11W4Tu%a1oR"/d-6Pih0j?>l1A@)4j%e>1lt-qHcob<=g`@dh_QQB6AWKFK^G_M.YrEQ(O.Ss>lI&*(OIf!X_r^oEY6>!l%b-Z4U,Qo2#i6`HRpCN(BlHU>]!M0TY4Vtl(Znp4mkZs,QKKV(T&iL^m-c],QKLC,m5=&,QKK#1e2Y8d(Xl.!ocPH#4#(H<.#uU-%^gA(BlHU>a2m'T\?jp(TB&Ol/lZ;4h[E*,QKL/(C)TW^sO3*,QKK<-&iF",QKJ!1`P0Ad!ql-!j[oa#5_:?<.#uU,sg1V(BlHU>TV\@(TB&OXW8&*(T8uNXe8Rq!o$KB#,&C"<.#uU-02PV(BlHU>ffA$(TB&OX_;'K(T8uNX^JetTH%k9(TT2Ql1c@54]n4i,QKKC(TK,P^rE*F,QKKB-(AK;,QKKh1j7B;ct6KH=f3iJ<.Q>Zh_c]D(Tf>S>ThKOEY<>U(BlHU>en0_TWO#;(T]8RkmD__4kkIH,QKLi(U#JU^]]Pm,QKK'-)u^r,QKJ<1^t8:QeKTtkltBO4jr1*1mCuNd$_YlEnAQskpn'h4bpD%1l,O;HWK\r69Og4\V+Z1(BlHU>Vo/TTKA#uX8jn<l-S'I4f6D3,QKKE(U#JU^_,V<,QKL),s\#M,QKK&1n1`MQc80=knP?<\*u3FA5=jBA8,7?'QOp#963j"8nLOb%!53:(M$fW$ZB6R$?ZAT$Z#fG$Yr"%"a*((&N1O<96*^"%<5TU*\L`&!ce9A!FSPp95I@)$8+kV*HrJfAH=GJA.gOZA40*h%<5WW04\+3"_'u+8p+3-A-FVMA7eS8!<FH0A-$=8&93)%(3`5R!<FK1A-$@J&5l+o&njsCA.:1UA5u`9!H3?i(3`5R!<GDKA-%!N!HVjL'QdPr!HVCF#@oJ5A-">a&9V>S?7l4[&T:$<$>KTC$SHp%4)u?5#6?;<A-$%C"`6UkAcXPKA-XbOA9(mJ%<"d$@KA,G")L_)#AGhNA-">p3Xd<E:B;q/A-#nA#&Qsr@KA,G%<#KU(3M8kA-">d(N`A8B)sYL6#m)lA-">IA-jnQA91@M!,"c!!<FW5A-#.o!bar*A-jnQA4T!\&7@e0!<F`8A-"u#'*0FDA-%'`(1^$6,BQC=?i_oE.UYSIA.gOZA40*h%<5WW04\+#*HG@g$!paDA-XbOA5Q)q!H21+@f\5H-Z33o,BQC=C&otO5"ItC!I8Nd$t*4>$Zds^A-"?1$?STu@f\5H2eYo`%<"d$@0&#F,'-LX!<FN2A-$.H%<#rS"`-dpDZMLT-#ZIX$Zgep%<#H7@f\5H11X'N$Zd=O>N%5!A-">IA.^IYA4'*t%q]*E&T:<j$Z/.&<rja6A-$LD#]<oWA-O\NA7o1F#ubMbAI1"RA,mi<A-">3A-"?2"_'l&(2d;P!**<3$?BK\(1]^:*<He0*oL^nE-a/qA-"?$$Z\^/%;nHq@0&#F0h"Q1<WFd:A-">EA-"?#%=:]33WLfsA`k^1A-"&AA-%"#-Z33d!HTnLA-"?3$ZeU<(/mt3%<Pi=?i_oE0h"Q1AJm-bA-!u?A-$:@"_LAI"_1/&A.(%SA49d$'N.G.!,bn'=91'=A-=PLA4T$o"(X&6A-">W#'is<(M$`O!':/m;DB4#>W<Q):bj[]A-"?-$"-;.-Z2:K(,@M"A-">JH3#Z_A.UCXA4T$o"(ZaP"`IX@"`m:4#C%d#\BX()W6O<c@KA,G5"ItC!I6=VA-"?!/Q,eH$Yi9tD#l:R0PO!^%rY'7(B?!MA-"><A-"?5'QHK12g&D'%qK-H!+[`BA-"?2$ZesF(',mKA-$LD#]<p4RfP0+A.(%SA5m/d(19d:!H21+B`TkN-Z2:K(/db#&S+15!<G5FA-$LD#]<pb!H;4H$=ZVM!I.sK%<#H89E?e1AHXYMA-"#@A-%$]*-Gau#%U(b?i_oE0P"6WA.1+TA5[/j0iMg.,slEp2c;:iA-"?.$ZB65D?2CS,Ap^d"`/$Q#\>YGA-">u!I7mt$Z/.&<rj[4A-%$]*-HX1*b6lQA-">I@f\5H0P"6W->lmKCB6(P1i5un!GOes!+]AM!I7m5GQBH].V[1]a`.hiVkO]%!I,,I(3ERu#N1l2'JBIuAJ$RZA,nVRA-"4^XdHPprKsuU>LYB^2<q1bB0O;l,Hj0sK`D0<A-">;A-"?/$["sH#uXAo%:_Y$!!"0+A-"4^S,k9,A-">IBE9bM0QTuc(NE2D!H1Y%B0OF>!bY),!WaT2A-%$]*-H*k&9U67A.:1UA4C<K6qV3,6qq940*!+YA-"<#A-">J4om<#B0ONK=#(a)<r`apA-";>A-">ICB6(P,sls&1-g256rIi;/Q$jX>Nfa^E-olRA.(%SA4T!]&Tqqp"(4DY@f\5H-Z24H!Ff7sBE9bM/T4uh&4/lo$>)n6B0O8GHF\LTi;a<NA-"<5A-">JI/tubALfDtA-"kXA-$.:&TUKk&Tq;T$8?9o%:V^hB`TkN2ai(-+]Anu2H+""70'k^A-"=cA-"?+%)SK1"!LlLKt=?,&)`_(&0X?shiL;K&E&eL%3\(:`HVo!%,dA<6t4Gp_/p2gVl`6c6q0X</9FT.A-FVMA9CXA%fn1EA-#e>%<X<YA-"?5-UMQb2^)jN,u8l7+<W;rA-">J$3;eDA-ahPA9M6[&7e@6#\5SIA-">u'4a^3/T43XB0Q$erKt$krW+9.A-$FP(MH*;2g&/!!<F]7A-$OS#APnHA-"?1"`d(/"%>[Q!Ff87$Z@[\A-"?-$3;S>A-$L?!FT,9A-FVMA5P^$*<Hf>=#(a)=#)EhA-"?0!HMC<$[=<YA-"?5-UMQb2^)s`.S+<#70+;jA-$0<a!!iOVm9&=%r(Bf$>'fS%)RTm$mA^N`F9?Y$fI;,#9iE:VkO]&KtEF=6tsr"`GZ5MBE9bM(M$`U#\[RM$Xd7DA-stRA3s[A/OX@q0iMR(A10)pAAu=^a!"\p$R&2EVl3rD#\ZM(6tT%`6u#=a6u:/&s(Dp>%,dD?&0NV@A-"?1*+V`9&8kbp%r(Bf$>'fLKt=c8&9H-Na!"\p$R&2EVl3rD$>E73$m7/LAH=GHkQ*>#Ahu)(A-*<trKt$krL5DqA-">IB)sYL.s+uY,R#hbA-">IA-FVMA5HH:!!+B0A-$.:&TUKj$?\s7A.(%SA5#6](M%#["a<R&B`TkN0lfl[/T4uh&62b+!<FB.A-$.:&TUKb$[53A!H21+@0&#F0Q('"$iqS:A-$.:&TUKk&Tq;T$8=+nA-"?3$t)A(!G*o<A-"?!(M$fq$?96A2g%kf!<F`8A-$FA!!+]9A-$m<@0&#F2e#N[!<FW5A-$(?!cgn*A,n8HA6:KGA-">T"`lsnE<.^V.,^>h%3^+)(2.&I6paEBa_sZP6ieZ!A-#n3(Nj"b$>(qLA-"?-(JR/%!+\_d@f\5H1i5uX!HVL0DZMLT-uM^c#Z3rr*FrG>D#l:R1i5uX!HVpI%07V9A-$CG$>!pQ(33W-$tr"3A.(%SA8OS=!-2:;%<"d$2$#?o%!>cL(HVU/(1:5U")(n>&S#!=!HUq3$?\s;&2-^S#qfFd!+f23&S"I<&hZgY!HD74963^-(G83^"_CpN$"-5!93"Sf!-i-L"tr>:"T^#8A-$=8&92Af&-]=])local s=N(string.sub(b,0x5),0x3)local L={}r=setmetatable({},{__index=L,__metatable=nil})function V(J)local w=L if not w[J]then local N=J+0x1 local b=((T(s[N],E[0x1])+T(s[N+0x1],E[0x2])*0x100)+T(s[N+0x2],E[0x3])*0x10000)+T(s[N+0x3],E[0x4])*0x1000000 N=N+0x4 local L={}for J=0x1,b,0x1 do local w=(J-0x1)%0x4+0x1 L[J]=U(T(s[(N+J)-0x1],E[w]))end w[J]=table.concat(L)end return J end end if _il6sOU~=r[V(0x0)]then return end local J,U,w,T,E,N,b,s,L,G,M,h,y,l,c,B,k,i,m,u,F,a s=function()T=E(T)J()return(c(F[0x1],b()))()end J=function()w=B(0x1,0x3)F={}for J=0x0,w-0x1,0x1 do F[J+0x1]=B(u+J*0x3,0x3)end u=u+w*0x3 L=B(u,0x3)for J=0x0,L-0x1,0x1 do l[J+0x1]=B((u+0x3)+J*0x4,0x4)end u=(u+L*0x4)+0x6 a=B(u-0x3,0x3)U=u+a*0x4 end m=string[r[V(0x32)]]E=function(J)local U={}for w=0x1,#J,0x1 do U[w]=m(J,w)end return U end F={}l={}B=function(J,U)local w=0x0 local E=0x1 for U=0x0,U-0x1,0x1 do w=w+T[J+U]*E E=E*0x100 end return w end y=math[r[V(0x3A)]]N=table and table[r[V(0x43)]]or unpack G=function(J)local U={}for w=0x0,0x7,0x1 do U[w+0x1]=T[J+w]end local w=0x1 local E=U[0x2]%0x10 for J=0x3,0x8,0x1 do E=E*0x100+U[J]end if U[0x1]>0x7F then w=-1 end local N=(U[0x1]%0x80)*0x10+i(U[0x2]/0x10)if N==0x0 then return 0x0 end E=(y(E,-52)+0x1)*w return y(E,N-0x3FF)end u=0x4 M={}i=math[r[V(0x4D)]]k=function(J,w,E,b)local s={[0x0]=b}local L={}local y=0x0 local k,i,m,a,W,Y i=u+(J-0x1)*
+local Config_URL = "https://raw.githubusercontent.com/gojosatoru751/scriptdz/refs/heads/main/gayv3" 
+local File_Name = "EclipseKeyCache.txt" -- Tên file lưu trữ key trong thư mục workspace
+
+---------------------------------------------------------
+-- HỆ THỐNG TỰ ĐỘNG TẢI DỮ LIỆU CHỦ
+---------------------------------------------------------
+local HttpService = game:GetService("HttpService")
+local TweenService = game:GetService("TweenService")
+local UserInputService = game:GetService("UserInputService")
+
+local fetchedLink = "https://funlink.io/Pu_s2wc" -- Giữ link dự phòng để user vẫn có chỗ click
+local fetchedKey = nil -- ĐÃ XÓA KEY DỰ PHÒNG (Bắt buộc lấy từ config)
+
+local success, response = pcall(function()
+    return game:HttpGet(Config_URL)
+end)
+
+if success and response then
+    local lines = {}
+    for line in string.gmatch(response, "[^\r\n]+") do
+        table.insert(lines, line)
+    end
+    if lines[1] then fetchedLink = string.gsub(lines[1], "%s+", "") end
+    if lines[2] then fetchedKey = string.gsub(lines[2], "%s+", "") end
+end
+
+---------------------------------------------------------
+-- HÀM KÍCH HOẠT SCRIPT CHÍNH CỦA BẠN (ĐÃ CẬP NHẬT SPEED HUB X)
+---------------------------------------------------------
+local function ExecuteMainScript()
+    local loadSuccess, err = pcall(function()
+        -- Thay đổi URL nạp script chính Speed Hub X tại đây
+        repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/teddyhubdev/diepvy/refs/heads/main/TeddyHub.lua"))()
+    end)
+    
+    if not loadSuccess then
+        warn("Lỗi Script Chính: " .. tostring(err))
+    end
+end
+
+---------------------------------------------------------
+-- KIỂM TRA CHỨC NĂNG LƯU KEY TỰ ĐỘNG (AUTO LOGIN)
+---------------------------------------------------------
+if fetchedKey and readfile and isfile and isfile(File_Name) then
+    local savedKey = readfile(File_Name)
+    if savedKey == fetchedKey then
+        -- Nếu có key server và key đã lưu trùng khớp, chạy thẳng luôn không hiện UI
+        ExecuteMainScript()
+        return 
+    end
+end
+
+---------------------------------------------------------
+-- KHỞI TẠO GIAO DIỆN CHUẨN
+---------------------------------------------------------
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "EclipseKeySystem_v3"
+ScreenGui.Parent = game:GetService("CoreGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+local MainFrame = Instance.new("Frame")
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+MainFrame.BackgroundColor3 = Color3.fromRGB(8, 8, 12)
+MainFrame.BackgroundTransparency = 0.08
+MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
+MainFrame.Size = UDim2.new(0, 350, 0, 230)
+
+local UICorner = Instance.new("UICorner")
+UICorner.CornerRadius = UDim.new(0, 24)
+UICorner.Parent = MainFrame
+
+local DropShadow = Instance.new("ImageLabel")
+DropShadow.Name = "DropShadow"
+DropShadow.Parent = MainFrame
+DropShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
+DropShadow.Size = UDim2.new(1, 60, 1, 60)
+DropShadow.BackgroundTransparency = 1
+DropShadow.Image = "rbxassetid://6015897843"
+DropShadow.ImageColor3 = Color3.fromRGB(180, 0, 30)
+DropShadow.ImageTransparency = 0.45
+DropShadow.ZIndex = MainFrame.ZIndex - 1
+
+local UIStroke = Instance.new("UIStroke")
+UIStroke.Parent = MainFrame
+UIStroke.Thickness = 3
+UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke.Color = Color3.fromRGB(255, 255, 255)
+
+local UIGradient = Instance.new("UIGradient")
+UIGradient.Color = ColorSequence.new{
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 40)),
+    ColorSequenceKeypoint.new(0.5, Color3.fromRGB(40, 0, 5)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 40))
+}
+UIGradient.Parent = UIStroke
+
+local Title = Instance.new("TextLabel")
+Title.Parent = MainFrame
+Title.Text = "SECURE ACCESS"
+Title.Font = Enum.Font.GothamBold
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 20
+Title.Size = UDim2.new(1, 0, 0, 60)
+Title.BackgroundTransparency = 1
+
+local KeyInput = Instance.new("TextBox")
+KeyInput.Parent = MainFrame
+KeyInput.PlaceholderText = "Nhập mã key truy cập..."
+KeyInput.Text = ""
+KeyInput.BackgroundColor3 = Color3.fromRGB(16, 16, 22)
+KeyInput.BackgroundTransparency = 0.2
+KeyInput.Position = UDim2.new(0.08, 0, 0.33, 0)
+KeyInput.Size = UDim2.new(0.84, 0, 0, 45)
+KeyInput.TextColor3 = Color3.fromRGB(255, 255, 255)
+KeyInput.Font = Enum.Font.GothamSemibold
+KeyInput.TextSize = 14
+
+local InputCorner = Instance.new("UICorner")
+InputCorner.CornerRadius = UDim.new(0, 12)
+InputCorner.Parent = KeyInput
+
+local InputStroke = Instance.new("UIStroke")
+InputStroke.Parent = KeyInput
+InputStroke.Thickness = 1.5
+InputStroke.Color = Color3.fromRGB(255, 0, 40)
+InputStroke.Transparency = 0.7
+
+local CopyBtn = Instance.new("TextButton")
+CopyBtn.Parent = MainFrame
+CopyBtn.Text = "GET KEY LINK"
+CopyBtn.Font = Enum.Font.GothamBold
+CopyBtn.TextSize = 12
+CopyBtn.BackgroundColor3 = Color3.fromRGB(22, 14, 15)
+CopyBtn.TextColor3 = Color3.fromRGB(255, 80, 90)
+CopyBtn.Position = UDim2.new(0.08, 0, 0.60, 5)
+CopyBtn.Size = UDim2.new(0.84, 0, 0, 32)
+
+local CopyCorner = Instance.new("UICorner")
+CopyCorner.CornerRadius = UDim.new(0, 10)
+CopyCorner.Parent = CopyBtn
+
+local SubmitBtn = Instance.new("TextButton")
+SubmitBtn.Parent = MainFrame
+SubmitBtn.Text = "ACTIVATE SCRIPT"
+SubmitBtn.Font = Enum.Font.GothamBold
+SubmitBtn.TextSize = 14
+SubmitBtn.BackgroundColor3 = Color3.fromRGB(255, 0, 40)
+SubmitBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+SubmitBtn.Position = UDim2.new(0.08, 0, 0.79, 10)
+SubmitBtn.Size = UDim2.new(0.84, 0, 0, 40)
+
+local SubmitCorner = Instance.new("UICorner")
+SubmitCorner.CornerRadius = UDim.new(0, 14)
+SubmitCorner.Parent = SubmitBtn
+
+---------------------------------------------------------
+-- HỆ THỐNG KÉO THẢ MƯỢT MÀ
+---------------------------------------------------------
+local dragging, dragInput, dragStart, startPos
+local function update(input)
+    local delta = input.Position - dragStart
+    MainFrame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+end
+
+MainFrame.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        dragging = true
+        dragStart = input.Position
+        startPos = MainFrame.Position
+        input.Changed:Connect(function()
+            if input.UserInputState == Enum.UserInputState.End then dragging = false end
+        end)
+    end
+end)
+
+MainFrame.InputChanged:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+        dragInput = input
+    end
+end)
+
+UserInputService.InputChanged:Connect(function(input)
+    if input == dragInput and dragging then update(input) end
+end)
+
+---------------------------------------------------------
+-- HIỆU ỨNG THÔNG BÁO & HOVER
+---------------------------------------------------------
+local function PlayHover(button, colorIn, sizeIn, colorOut, sizeOut)
+    button.MouseEnter:Connect(function()
+        TweenService:Create(button, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = colorIn, Size = sizeIn}):Play()
+    end)
+    button.MouseLeave:Connect(function()
+        TweenService:Create(button, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = colorOut, Size = sizeOut}):Play()
+    end)
+end
+
+PlayHover(CopyBtn, Color3.fromRGB(40, 20, 22), UDim2.new(0.86, 0, 0, 34), Color3.fromRGB(22, 14, 15), UDim2.new(0.84, 0, 0, 32))
+PlayHover(SubmitBtn, Color3.fromRGB(190, 0, 25), UDim2.new(0.86, 0, 0, 42), Color3.fromRGB(255, 0, 40), UDim2.new(0.84, 0, 0, 40))
+
+local function AdvancedNotify(msg, color)
+    local NotifyGui = Instance.new("ScreenGui", game:GetService("CoreGui"))
+    local Box = Instance.new("Frame", NotifyGui)
+    local Text = Instance.new("TextLabel", Box)
+    
+    Box.Size = UDim2.new(0, 280, 0, 45)
+    Box.Position = UDim2.new(0.5, -140, 0, -50)
+    Box.BackgroundColor3 = Color3.fromRGB(12, 12, 16)
+    Box.BackgroundTransparency = 0.1
+    
+    local BC = Instance.new("UICorner", Box) BC.CornerRadius = UDim.new(0, 12)
+    local S = Instance.new("UIStroke", Box) S.Color = color S.Thickness = 2
+    
+    Text.Size = UDim2.new(1, 0, 1, 0)
+    Text.BackgroundTransparency = 1
+    Text.Text = msg
+    Text.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Text.Font = Enum.Font.GothamBold
+    Text.TextSize = 13
+    
+    TweenService:Create(Box, TweenInfo.new(0.4, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {Position = UDim2.new(0.5, -140, 0, 40)}):Play()
+    task.wait(2.5)
+    TweenService:Create(Box, TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {Position = UDim2.new(0.5, -140, 0, -50)}):Play()
+    task.wait(0.4)
+    NotifyGui:Destroy()
+end
+
+---------------------------------------------------------
+-- LOGIC TƯƠNG TÁC NÚT BẤM
+---------------------------------------------------------
+CopyBtn.MouseButton1Click:Connect(function()
+    if setclipboard then
+        setclipboard(fetchedLink)
+        CopyBtn.Text = "COPIED URL!"
+        AdvancedNotify("Đã sao chép link get key mới nhất!", Color3.fromRGB(255, 0, 40))
+    else
+        AdvancedNotify("Executor không hỗ trợ sao chép nhanh!", Color3.fromRGB(255, 0, 40))
+    end
+    task.wait(2)
+    CopyBtn.Text = "GET KEY LINK"
+end)
+
+SubmitBtn.MouseButton1Click:Connect(function()
+    -- KIỂM TRA NẾU SERVER CHƯA TRẢ VỀ KEY HOẶC LỖI KẾT NỐI GITHUB
+    if not fetchedKey or fetchedKey == "" then
+        SubmitBtn.Text = "SERVER ERROR!"
+        SubmitBtn.BackgroundColor3 = Color3.fromRGB(150, 0, 20)
+        AdvancedNotify("Không thể kết nối tới máy chủ cấu hình GitHub!", Color3.fromRGB(255, 0, 40))
+        task.wait(2)
+        SubmitBtn.Text = "ACTIVATE SCRIPT"
+        SubmitBtn.BackgroundColor3 = Color3.fromRGB(255, 0, 40)
+        return
+    end
+
+    local userKey = KeyInput.Text
+    
+    -- XÁC THỰC KEY CHÍNH XÁC TỪ SERVER GITHUB
+    if userKey == fetchedKey then
+        SubmitBtn.Text = "ACCESS GRANTED!"
+        SubmitBtn.BackgroundColor3 = Color3.fromRGB(0, 220, 110)
+        SubmitBtn.TextColor3 = Color3.fromRGB(8, 8, 12)
+        
+        -- TIẾN HÀNH LƯU KEY CHO LẦN SAU
+        if writefile then
+            pcall(function()
+                writefile(File_Name, userKey)
+            end)
+        end
+        
+        -- Hiệu ứng ẩn UI mượt mà
+        TweenService:Create(MainFrame, TweenInfo.new(0.4, Enum.EasingStyle.Back, Enum.EasingDirection.In), {Size = UDim2.new(0, 0, 0, 0), BackgroundTransparency = 1}):Play()
+        TweenService:Create(DropShadow, TweenInfo.new(0.3), {ImageTransparency = 1}):Play()
+        task.wait(0.4)
+        ScreenGui:Destroy()
+        
+        -- Chạy Speed Hub X chính sau khi qua Key System của bạn
+        ExecuteMainScript()
+    else
+        SubmitBtn.Text = "ACCESS DENIED!"
+        SubmitBtn.BackgroundColor3 = Color3.fromRGB(150, 0, 20)
+        AdvancedNotify("Mã khóa không chính xác hoặc đã hết hạn!", Color3.fromRGB(255, 0, 40))
+        task.wait(2)
+        SubmitBtn.Text = "ACTIVATE SCRIPT"
+        SubmitBtn.BackgroundColor3 = Color3.fromRGB(255, 0, 40)
+    end
+end)
