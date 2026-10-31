@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://senahub.xyz/raw/loader"))()
+loadstring(game:HttpGet("https://senahub.xyz/senaexclusive"))()
