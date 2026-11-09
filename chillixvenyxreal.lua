@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/napun87/stealaneggv2/refs/heads/main/chillihubxvenyReal.lua"))()
+loadstring(game:HttpGet("https://robloxscriptbest.com/script/loader.php?script=chilli_x_venyx_loader_v9"))()
