@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/bloxfruitsnokey/Redz/refs/heads/main/Redz/v3.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gojosatoru751/key-system/refs/heads/main/REDZV2new.lua?token=GHSAT0AAAAAAEMYZREJKBZ3XFGZFGS7JMCC2XXGT4Q"))()
