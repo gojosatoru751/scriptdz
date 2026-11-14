@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/Aquavine/main/DivineHub"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gojosatoru751/key-system/refs/heads/main/Aquadivine.lua?token=GHSAT0AAAAAAEMYZREIAVAU67W554OJXMGO2XYN36A"))()
