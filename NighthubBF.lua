@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/gojosatoru751/Finderpet/refs/heads/main/Night.lua"))()
+loadstring(game:HttpGet("https://nighthub.site/loader.lua"))()
